@@ -1,2 +1,2 @@
 #!/bin/bash
-wc -l CDPATH
+echo $PATH | tr -s ':' '\n' | wc -1
